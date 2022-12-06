@@ -1,1 +1,1 @@
-web: gunicorn the_box_model_root.wsgi
+web: gunicorn the_box_model_root.wsgi --log-file -
